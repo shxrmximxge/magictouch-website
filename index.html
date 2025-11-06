@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MagicTouch Eyebrow Threading</title>
+  <meta name="description" content="Precision eyebrow threading, tinting, and facial hair removal. Walk‑ins welcome. Book your perfect brows today." />
+  <link rel="icon" href="favicon.ico" />
+  <meta property="og:title" content="MagicTouch Eyebrow Threading" />
+  <meta property="og:description" content="Precision eyebrow threading, tinting, and facial hair removal. Walk‑ins welcome. Book your perfect brows today." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/images/og-cover.jpg" />
+  <meta property="og:url" content="https://your-username.github.io/magictouch" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <style>
+    :root{
+      --bg:#0f0f10; --card:#17181a; --muted:#9aa0a6; --text:#f4f5f7; --brand:#c28fff; --accent:#ffd166; --ok:#35d07f; --danger:#ff6b6b;
+      --radius:16px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .container{max-width:1120px;margin-inline:auto;padding:24px}
+    .pill{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border:1px solid #2a2b2f;border-radius:999px;background:#141417;color:#d7c9ff;font-size:12px}
+    header{position:sticky;top:0;z-index:50;background:linear-gradient( to bottom, rgba(15,15,16,.95) 60%, rgba(15,15,16,0));backdrop-filter:saturate(1.1) blur(6px);}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 24px}
+    .nav a.logo{font-weight:800;letter-spacing:.3px;font-size:20px}
+    .nav .links{display:flex;gap:18px}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:12px;border:1px solid #2a2b2f;background:linear-gradient(180deg,#1d1e22,#141519);color:#fff;cursor:pointer}
+    .btn.brand{border-color:#4b2d7f;background:linear-gradient(180deg,#5a2ea6,#41236f)}
+    .btn.ghost{background:#141417}
+    .hero{padding:40px 0 12px}
+    .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}
+    .hero h1{font-size:48px;line-height:1.1;margin:10px 0 12px}
+    .hero p{color:var(--muted);font-size:18px;margin:0 0 18px}
+    .badges{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 22px}
+    .card{background:var(--card);border:1px solid #26272b;border-radius:var(--radius);padding:18px}
+    .shadow{box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .grid{display:grid;gap:18px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+    .section{padding:36px 0}
+    .section h2{font-size:28px;margin:0 0 8px}
+    .section p.lead{color:var(--muted);margin:0 0 16px}
+    .service{display:flex;gap:14px}
+    .service h3{margin:0 0 6px;font-size:18px}
+    .price{margin-left:auto;font-weight:700}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .gallery{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+    .gallery img{border-radius:12px;border:1px solid #2a2b2f}
+    .faq details{background:#141417;border-radius:12px;border:1px solid #26272b;padding:12px}
+    .faq summary{cursor:pointer;font-weight:600}
+    .contact{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}
+    .field{display:grid;gap:6px}
+    input,textarea{background:#111214;border:1px solid #26272b;color:#fff;padding:12px;border-radius:12px}
+    footer{padding:40px 0;color:var(--muted)}
+    .hours{display:grid;grid-template-columns:1fr auto;gap:8px}
+    .chip{font-size:12px;background:#121216;border:1px solid #26272b;padding:4px 8px;border-radius:999px;color:#cbd1d8}
+    .notice{font-size:12px;color:#b8bec6}
+    @media (max-width:960px){
+      .hero-grid,.contact{grid-template-columns:1fr}
+      .grid.cols-3{grid-template-columns:1fr}
+      .gallery{grid-template-columns:repeat(3,1fr)}
+      .hero h1{font-size:36px}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "MagicTouch Eyebrow Threading",
+    "image": ["https://your-username.github.io/magictouch/images/og-cover.jpg"],
+    "url": "https://your-username.github.io/magictouch/",
+    "telephone": "+1-555-123-4567",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Main St",
+      "addressLocality": "Your City",
+      "addressRegion": "CA",
+      "postalCode": "90000",
+      "addressCountry": "US"
+    },
+    "openingHours": "Mo-Su 10:00-19:00",
+    "sameAs": ["https://www.instagram.com/yourhandle"]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="nav container">
+      <a class="logo" href="#">MagicTouch</a>
+      <div class="links">
+        <a href="#services" class="chip">Services</a>
+        <a href="#pricing" class="chip">Pricing</a>
+        <a href="#gallery" class="chip">Gallery</a>
+        <a href="#contact" class="chip">Contact</a>
+        <a href="#book" class="btn brand">Book now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-grid">
+        <div>
+          <span class="pill">Threading • Tinting • Lashes</span>
+          <h1>Brows that frame your face. <br/>Precision every time.</h1>
+          <p>Walk‑ins welcome. Same‑day appointments available. Our specialists shape natural, symmetrical brows using 100% cotton thread. Minimal redness. Maximum definition.</p>
+          <div class="cta">
+            <a id="book" class="btn brand" href="tel:+15551234567">Call to book</a>
+            <a class="btn ghost" href="mailto:hello@magictouch.com">Email us</a>
+          </div>
+          <div class="badges">
+            <span class="pill">⭐ 4.9 on Google</span>
+            <span class="pill">Hygiene‑first studio</span>
+            <span class="pill">Organic thread & tints</span>
+          </div>
+        </div>
+        <div class="card shadow">
+          <img src="images/hero-brows.jpg" alt="Before and after eyebrow threading" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section container">
+      <h2>Services</h2>
+      <p class="lead">Clean lines. Natural arches. Zero over‑plucking.</p>
+      <div class="grid cols-3">
+        <div class="card service">
+          <div>
+            <h3>Eyebrow Threading</h3>
+            <p class="notice">Mapping + shaping + finishing gel</p>
+          </div>
+          <div class="price">$14</div>
+        </div>
+        <div class="card service">
+          <div>
+            <h3>Upper Lip Threading</h3>
+            <p class="notice">Fast and gentle hair removal</p>
+          </div>
+          <div class="price">$7</div>
+        </div>
+        <div class="card service">
+          <div>
+            <h3>Full Face Threading</h3>
+            <p class="notice">Forehead, cheeks, chin, jawline</p>
+          </div>
+          <div class="price">$40</div>
+        </div>
+        <div class="card service">
+          <div>
+            <h3>Brow Tint</h3>
+            <p class="notice">Ammonia‑free custom shade</p>
+          </div>
+          <div class="price">$18</div>
+        </div>
+        <div class="card service">
+          <div>
+            <h3>Lash Tint</h3>
+            <p class="notice">Deeper color, low maintenance</p>
+          </div>
+          <div class="price">$20</div>
+        </div>
+        <div class="card service">
+          <div>
+            <h3>Brow + Tint Bundle</h3>
+            <p class="notice">Most popular combo</p>
+          </div>
+          <div class="price">$28</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section container">
+      <h2>Pricing & Promos</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3 style="margin-top:0">Student Tuesdays</h3>
+          <p>Show a valid student ID and get <strong>10% off</strong> threading services every Tuesday.</p>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Loyalty Card</h3>
+          <p>Get a stamp each visit. Your <strong>6th brow is free</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section container">
+      <h2>Before & After</h2>
+      <p class="lead">Real clients. Real symmetry.</p>
+      <div class="gallery">
+        <img src="images/g1.jpg" alt="Before and after 1"/>
+        <img src="images/g2.jpg" alt="Before and after 2"/>
+        <img src="images/g3.jpg" alt="Before and after 3"/>
+        <img src="images/g4.jpg" alt="Before and after 4"/>
+        <img src="images/g5.jpg" alt="Before and after 5"/>
+        <img src="images/g6.jpg" alt="Before and after 6"/>
+      </div>
+    </section>
+
+    <section class="section container">
+      <h2>What clients say</h2>
+      <div class="grid cols-3">
+        <div class="card">
+          <p>“Fast, precise, and painless. Best brows I’ve had.”</p>
+          <p class="notice">— Ayesha</p>
+        </div>
+        <div class="card">
+          <p>“They mapped my brow shape and kept it natural. 10/10.”</p>
+          <p class="notice">— Maya</p>
+        </div>
+        <div class="card">
+          <p>“Walked in during lunch and was out in 12 minutes.”</p>
+          <p class="notice">— Jenna</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section container faq">
+      <h2>FAQ</h2>
+      <details>
+        <summary>Does threading hurt?</summary>
+        <p>Most clients feel light tingling. We use skin tensioning and aloe gel to reduce sensitivity.</p>
+      </details>
+      <details>
+        <summary>How long does it last?</summary>
+        <p>Typically 3–4 weeks depending on hair growth. Tints last ~2 weeks on hair and a few days on skin.</p>
+      </details>
+      <details>
+        <summary>Do you accept walk‑ins?</summary>
+        <p>Yes. To avoid waiting, call ahead or book a time.</p>
+      </details>
+    </section>
+
+    <section id="contact" class="section container contact">
+      <div class="card">
+        <h2>Visit us</h2>
+        <div class="hours">
+          <div>Mon–Sun</div><div>10:00 AM – 7:00 PM</div>
+          <div>Walk‑ins</div><div>Welcome</div>
+          <div>Phone</div><div><a href="tel:+15551234567">(555) 123‑4567</a></div>
+          <div>Email</div><div><a href="mailto:hello@magictouch.com">hello@magictouch.com</a></div>
+          <div>Address</div><div>123 Main St, Your City, CA</div>
+        </div>
+        <div style="margin-top:12px">
+          <a class="btn" href="https://maps.google.com/?q=123+Main+St+Your+City+CA" target="_blank" rel="noopener">Open in Google Maps</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Message us</h2>
+        <form action="https://formspree.io/f/your-id" method="POST">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          </div>
+          <div class="field">
+            <label for="msg">Message</label>
+            <textarea id="msg" name="message" rows="4" placeholder="How can we help?" required></textarea>
+          </div>
+          <button class="btn brand" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="grid cols-3">
+        <div>
+          <strong>MagicTouch</strong>
+          <p class="notice">Precision threading studio. Est. 2025.</p>
+        </div>
+        <div>
+          <p class="notice">© <span id="y"></span> MagicTouch Eyebrow Threading. All rights reserved.</p>
+        </div>
+        <div>
+          <div class="cta">
+            <a class="chip" href="#">Instagram</a>
+            <a class="chip" href="#">TikTok</a>
+            <a class="chip" href="#">Google Reviews</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
