@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Magic Touch Eyebrow Threading — Perfect Arches, Every Time</title>
+  <meta name="description" content="Magic Touch Eyebrow Threading in Fair Oaks, CA offers professional threading, tinting, and facial hair removal. Walk‑ins welcome. Student Tuesday: 25% off with valid student ID." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Magic Touch Eyebrow Threading",
+    "image": "",
+    "description": "Eyebrow threading, tinting, and facial hair removal in Fair Oaks, CA. Walk‑ins welcome. Student Tuesday: 25% off with valid ID.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "4818 San Juan Ave",
+      "addressLocality": "Fair Oaks",
+      "addressRegion": "CA",
+      "postalCode": "95628",
+      "addressCountry": "US"
+    },
+    "telephone": "+1 916-591-6051",
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"10:30","closes":"19:00"}
+    ],
+    "sameAs": []
+  }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --brand:#d19ac9; --brand-2:#9c7bd1; --bg:#0f1115; --card:#171a21; --text:#eef2f7; --muted:#aab3c4; --radius:20px; --shadow:0 10px 30px rgba(0,0,0,.35); }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui;background:var(--bg);color:var(--text)}
+    a{color:inherit;text-decoration:none}
+    .container{width:min(1100px,92%);margin:auto}
+    .btn{background:linear-gradient(135deg,var(--brand),var(--brand-2));border:0;border-radius:999px;padding:.9rem 1.1rem;font-weight:700;cursor:pointer;box-shadow:var(--shadow)}
+    header{position:sticky;top:0;background:rgba(15,17,21,.7);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.1)}
+    .nav-inner{display:flex;justify-content:space-between;align-items:center;padding:.8rem 0}
+    .hero{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;padding:2rem 0}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+    .card{background:var(--card);border-radius:var(--radius);padding:1rem;box-shadow:var(--shadow)}
+    .price{color:var(--brand);font-weight:700}
+    footer{border-top:1px solid rgba(255,255,255,.1);padding:1rem 0;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav-inner">
+      <h1>Magic Touch Eyebrow Threading</h1>
+      <nav><a href="#services">Services</a> | <a href="#contact">Contact</a></nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h2>Perfect Arches, Every Time</h2>
+        <p>Professional eyebrow threading, tinting, and full‑face hair removal in Fair Oaks, CA. Walk‑ins welcome — clean, gentle, and precise every visit.</p>
+        <p><strong>Student Tuesday:</strong> 25% off with valid student ID!</p>
+        <a class="btn" href="tel:+19165916051">Call (916) 591‑6051</a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a9731?q=80&w=800&auto=format&fit=crop" alt="Eyebrow threading" style="width:100%;border-radius:20px;">
+    </section>
+
+    <section id="services">
+      <h2>Services & Pricing</h2>
+      <div class="cards">
+        <div class="card"><h3>Eyebrows</h3><p class="price">$14</p></div>
+        <div class="card"><h3>Eyebrow Tint</h3><p class="price">$10</p></div>
+        <div class="card"><h3>Eyebrow + Upper Lip</h3><p class="price">$20</p></div>
+        <div class="card"><h3>Upper Lip</h3><p class="price">$7</p></div>
+        <div class="card"><h3>Chin</h3><p class="price">$8</p></div>
+        <div class="card"><h3>Cheeks</h3><p class="price">$10</p></div>
+        <div class="card"><h3>Sideburns</h3><p class="price">$10</p></div>
+        <div class="card"><h3>Neck</h3><p class="price">$10</p></div>
+        <div class="card"><h3>Full Face</h3><p class="price">$40</p></div>
+        <div class="card"><h3>Full Face + Neck</h3><p class="price">$45</p></div>
+        <div class="card"><h3>Half Face</h3><p class="price">$30</p></div>
+        <div class="card"><h3>Half Face + Neck</h3><p class="price">$35</p></div>
+        <div class="card"><h3>Underarms</h3><p class="price">$20</p></div>
+        <div class="card"><h3>Arms (below elbow)</h3><p class="price">$40</p></div>
+        <div class="card"><h3>Legs (below knee)</h3><p class="price">$60</p></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><strong>Address:</strong> <a href="https://maps.app.goo.gl/xDy28FMvaWF4rdjf8" target="_blank">4818 San Juan Ave, Fair Oaks, CA 95628</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+19165916051">(916) 591‑6051</a></p>
+      <p><strong>Email:</strong> <a href="mailto:magictoucheyebrow@gmail.com">magictoucheyebrow@gmail.com</a></p>
+      <p><strong>Hours:</strong> Mon–Sat 10:30 am – 7 pm • Closed Sunday</p>
+      <p>Walk‑ins welcome • Free plaza parking</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Magic Touch Eyebrow Threading. All rights reserved.</div>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
